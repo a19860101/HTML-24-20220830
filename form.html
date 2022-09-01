@@ -8,31 +8,51 @@
 </head>
 <body>
     <form action="" method="get">
-        <input type="text" name="user">
+        <label for="user">帳號</label>
+        <input type="text" name="user" id="user">
         <br>
-        <input type="password" name="password">
+        <label for="pw">密碼</label>
+        <input type="password" name="password" id="pw">
         <br>
-        <input type="email" name="email">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
         <br>
-        <input type="number" name="number">
+        <label for="number">數量</label>
+        <input type="number" name="number" id="number">
         <br>
-        <input type="date" name="birth">
+        <label for="birth">出生年月日</label>
+        <input type="date" name="birth" id="birth">
         <br>
-        <input type="radio" name="gender" value="男">男
-        <input type="radio" name="gender" value="女">女
+        <label>性別</label>
+        <input type="radio" name="gender" value="男" id="men">
+        <label for="men">男</label>
+        
+        <input type="radio" name="gender" value="女" id="women">
+        <label for="women">女</label>
         <br>
-        <input type="checkbox" name="hobby" value="吃">吃
-        <input type="checkbox" name="hobby" value="喝">喝
-        <input type="checkbox" name="hobby" value="玩">玩
-        <input type="checkbox" name="hobby" value="樂">樂
+        <label>嗜好</label>
+        <input type="checkbox" name="hobby" value="吃" id="eat">
+        <label for="eat">吃</label>
+
+        <input type="checkbox" name="hobby" value="喝" id="drink">
+        <label for="drink">喝</label>
+
+        <input type="checkbox" name="hobby" value="玩" id="play">
+        <label for="play">玩</label>
+
+        <input type="checkbox" name="hobby" value="樂" id="happy">
+        <label for="happy">樂</label>
         <br>
-        <select name="edu" id="">
+        <label for="edu">學歷</label>
+        <select name="edu" id="edu">
             <option value="國小">國小</option>
             <option value="國中">國中</option>
             <option value="高中職">高中職</option>
             <option value="大專院校">大專院校</option>
         </select>
-        
+        <br>
+        <label for="content">內容</label>
+        <textarea name="content" id="conten" cols="30" rows="10"></textarea>
     </form>
 </body>
 </html>
