@@ -1,3 +1,59 @@
+body {
+    font-family: 'Nunito';
+}
+h1 {
+    text-align: justify;
+    text-transform: capitalize;
+}
 p {
-    color: red;
+    color: #5d0000;
+    /* color: red; */
+    /* color: rgb(0, 0, 0); */
+    /* color: rgb(55 198 10 / 0.5); */
+    /* 
+        16進位色碼 
+        0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F 
+    */
+    text-align: justify;
+    /* text-decoration:line-through; */
+    /* none, underline, overline, line-through */
+
+    /* text-decoration-line: underline; */
+    /* text-decoration-color: #f00; */
+    /* text-decoration-style: wavy; */
+    /* solid, dashed, dotted, double, wavy */
+    /* text-decoration-thickness: 4px; */
+
+    text-decoration: underline #360000 dotted 1px;
+    font-size: 1rem; 
+    /* 
+        em:會隨著父層變化 
+        rem:不會隨著父層變化 
+
+        chrome瀏覽器最小文字大小為12px
+    */
+    font-weight: normal;
+    /* 
+        normal, lighter,bold, 100-900
+    */
+    font-style: normal;
+    /* 
+        normal, italic
+    */
+    /* font-family:Georgia, 'Times New Roman', Times, serif */
+    /* 
+        sans-serif 非襯線字
+        serif 襯線字
+    */
+
+    line-height: 1.7rem;
+    /* letter-spacing: 20px; */
+    /* word-spacing: 20px; */
+    text-transform: capitalize;
+    /* uppercase, lowercase, capitalize */
+    font-weight: 900;
+}
+a {
+    text-decoration: none;
+    color: #fa0;
 }
