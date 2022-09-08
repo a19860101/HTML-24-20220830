@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            height: 3000px;
+        }
         .relative {
             width: 200px;
             height: 200px;
@@ -26,10 +29,34 @@
 
             position: relative;
         }
+        .abs {
+            width: 200px;
+            height: 200px;
+            background-color: #f00;
+
+            position: absolute;
+
+            top: 0;
+            right: 0;
+        }
+        .container {
+            width: 800px;
+            height: 600px;
+            background-color: #aaa;
+
+            position: relative;
+        }
+        /* 
+        絕對定位預設會以body為基準
+        相對定位可以控制絕對定位
+        */
     </style>
 </head>
 <body>
     <div class="relative"></div>
     <div class="relative-2"></div>
+    <div class="container">
+        <div class="abs"></div>
+    </div>
 </body>
 </html>
