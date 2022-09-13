@@ -79,7 +79,7 @@ section {
     margin-right: auto;
     display: flow-root
 }
-.about-title,.works-title {
+.about-title,.works-title,.contact-title {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 50px;
@@ -107,4 +107,35 @@ section {
     display: block;
 }
 
-
+#contact {
+    background-color: #efefef;
+}
+.contact-item {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-group label {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.form-control {
+    width: 100%;
+    padding: 8px;
+}
+.btn {
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: #35b8ff;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #71cafa;
+}
