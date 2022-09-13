@@ -66,3 +66,30 @@ header p {
     backdrop-filter: blur(6px);
     text-align: center;
 }
+#about {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flow-root
+}
+.about-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about-item {
+    width: 400px;
+    padding:15px;
+    float: left;
+}
+.about-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+.about-item p {
+    line-height: 1.5rem;
+}
