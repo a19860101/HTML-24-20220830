@@ -66,9 +66,12 @@ header p {
     backdrop-filter: blur(6px);
     text-align: center;
 }
-#about {
+section {
     padding-top: 150px;
     padding-bottom: 150px;
+}
+#about {
+    background-color: #efefef;
 }
 .container {
     width: 1200px;
@@ -76,7 +79,7 @@ header p {
     margin-right: auto;
     display: flow-root
 }
-.about-title {
+.about-title,.works-title {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 50px;
@@ -93,3 +96,15 @@ header p {
 .about-item p {
     line-height: 1.5rem;
 }
+
+.works-item {
+    width: 300px;
+    float: left;
+    padding: 5px;
+}
+.works-item img {
+    width: 100%;
+    display: block;
+}
+
+
