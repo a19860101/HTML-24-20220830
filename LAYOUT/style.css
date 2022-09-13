@@ -11,6 +11,8 @@ nav {
     height: 60px;
     background-color: #222;
     line-height: 60px;
+    position: fixed;
+    z-index: 9999;
 }
 nav a {
     display: inline-block;
@@ -138,4 +140,11 @@ section {
 }
 .btn:hover {
     background-color: #71cafa;
+}
+
+footer {
+    background-color: #222;
+    color: #eee;
+    text-align: center;
+    padding: 20px;
 }
